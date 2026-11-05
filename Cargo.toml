@@ -1,0 +1,13 @@
+[package]
+name = "rs-sha3-keccak"
+version = "1.0.0"
+edition = "2021"
+description = "SHA3-256/512 with Keccak-f[1600] permutation"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-sha3-keccak"
+keywords = ["rust", "sha3", "keccak", "hash", "cryptography"]
+
+[[bin]]
+name = "rs_sha3_keccak"
+path = "main.rs"
